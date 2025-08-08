@@ -9,7 +9,7 @@ export default function Navbar() {
   // Nav links data (for reusability)
   const navLinks = [
     { name: 'Home', href: '/' },
-   
+
     { name: 'Projects', href: '/projects' },
     { name: 'About', href: '#about' },
     { name: 'Contact', href: '#contact' },
@@ -19,7 +19,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 shadow-lg">
       <div className="flex justify-around items-center py-3 px-6 max-w-7xl mx-auto">
         {/* Logo */}
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
@@ -37,13 +37,13 @@ export default function Navbar() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
             >
-              <a
-                href={link.href}
+              <Link
+                to={link.href}
                 className="relative font-semibold text-white p-2 group"
               >
                 <span className="z-10 relative">{link.name}</span>
                 <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
-              </a>
+              </Link>
             </motion.li>
           ))}
         </ul>
