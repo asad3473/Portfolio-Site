@@ -6,6 +6,7 @@ import ProjectDetail from './Components/Projects/ProjectDetail';
 import Footer from './Pages/Footer';
 import HomeMain from './Pages/HomeMain';
 import Projects from './Pages/Projects';
+import WhatsAppButton from './Pages/WhatsAppButton';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="/projects/:id" element={<ProjectDetail />} />
           </Routes>
         </main>
+        <WhatsAppButton/>
         <Footer />
       </div>
     </Router>

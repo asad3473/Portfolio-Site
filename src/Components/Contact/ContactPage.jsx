@@ -135,7 +135,8 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Location</h4>
-                    <p className="text-gray-600">Your City, Country</p>
+                    <p className="text-gray-600">Tiara Ampang Selangor
+                      Kuala Lumpur</p>
                   </div>
                 </div>
 
@@ -145,7 +146,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Phone</h4>
-                    <p className="text-gray-600">+1 (123) 456-7890</p>
+                    <p className="text-gray-600">+601128246982</p>
                   </div>
                 </div>
 
@@ -155,7 +156,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Email</h4>
-                    <p className="text-gray-600">your.email@example.com</p>
+                    <p className="text-gray-600">jawaidh82@gmail.com</p>
                   </div>
                 </div>
               </div>
